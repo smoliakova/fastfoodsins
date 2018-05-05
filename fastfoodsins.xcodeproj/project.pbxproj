@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4980C3E5209E15050052F5AF /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980C3E4209E15050052F5AF /* firstViewController.swift */; };
+		4980C405209E24470052F5AF /* ProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980C404209E24470052F5AF /* ProgressBarViewController.swift */; };
 		49ED60FC20926FD40010543F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED60FB20926FD40010543F /* AppDelegate.swift */; };
 		49ED60FE20926FD40010543F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED60FD20926FD40010543F /* ViewController.swift */; };
 		49ED610120926FD40010543F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ED60FF20926FD40010543F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4980C3E4209E15050052F5AF /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		4980C404209E24470052F5AF /* ProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarViewController.swift; sourceTree = "<group>"; };
 		49ED60F820926FD40010543F /* fastfoodsins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fastfoodsins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49ED60FB20926FD40010543F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49ED60FD20926FD40010543F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +60,9 @@
 			children = (
 				49ED60FB20926FD40010543F /* AppDelegate.swift */,
 				49ED60FD20926FD40010543F /* ViewController.swift */,
+				4980C3E4209E15050052F5AF /* firstViewController.swift */,
 				49ED60FF20926FD40010543F /* Main.storyboard */,
+				4980C404209E24470052F5AF /* ProgressBarViewController.swift */,
 				49ED610220926FD60010543F /* Assets.xcassets */,
 				49ED610420926FD60010543F /* LaunchScreen.storyboard */,
 				49ED610720926FD60010543F /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				49ED60FE20926FD40010543F /* ViewController.swift in Sources */,
 				49ED60FC20926FD40010543F /* AppDelegate.swift in Sources */,
+				4980C3E5209E15050052F5AF /* firstViewController.swift in Sources */,
+				4980C405209E24470052F5AF /* ProgressBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

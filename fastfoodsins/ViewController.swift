@@ -69,7 +69,7 @@ class CustomView: UIView {
     let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.backgroundColor = UIColor.gray
+        imageView.backgroundColor = UIColor.white
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
