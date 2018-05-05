@@ -31,28 +31,31 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7dz-Zh-1xU"/>
                     <connections>
                         <outlet property="scrollView" destination="zNt-O5-HtP" id="wW7-mV-pxj"/>
+                        <segue destination="iGS-nQ-knF" kind="show" identifier="progressViewSegue" id="uoa-Rl-eD6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+            <point key="canvasLocation" x="-150" y="70"/>
         </scene>
-        <!--View Controller-->
+        <!--Progress Bar View Controller-->
         <scene sceneID="Jdg-Vo-l0w">
             <objects>
-                <viewController id="iGS-nQ-knF" sceneMemberID="viewController">
+                <viewController id="iGS-nQ-knF" customClass="ProgressBarViewController" customModule="fastfoodsins" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ybr-KG-AfN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tjh-P4-GBA"/>
                     </view>
+                    <navigationItem key="navigationItem" id="MYT-qv-MVY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dmn-hX-ukd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="985" y="125"/>
+            <point key="canvasLocation" x="540" y="70"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="hf6-fu-8ZX">
@@ -91,13 +94,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bMh-m2-sL2"/>
                     </view>
+                    <navigationItem key="navigationItem" id="abW-Cv-ORn"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="foodViewSegue" id="feK-0x-FmW"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="foodViewSegue" id="Clr-nj-hAt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pJG-o5-VND" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-735" y="117"/>
+            <point key="canvasLocation" x="-780" y="70"/>
         </scene>
     </scenes>
     <resources>
